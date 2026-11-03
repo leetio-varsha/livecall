@@ -1,0 +1,12 @@
+node_modules
+.env
+samples/*.wav
+samples/*.m4a
+samples/*.aiff
+.DS_Store
+*.log
+
+# Build outputs and machine-specific generated code
+app/build/
+app/Livecall/Sources/Generated.swift
+helper/build/

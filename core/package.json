@@ -1,0 +1,21 @@
+{
+  "name": "livecall-core",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Livecall core — streaming transcription + realtime call Q&A",
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "m1": "node src/m1.ts",
+    "prompt": "node src/showPrompt.ts",
+    "test": "node src/selftest.ts",
+    "spend": "node src/spend.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.115.0",
+    "openai": "^7.1.0"
+  }
+}
